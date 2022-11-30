@@ -2,17 +2,23 @@ package firstExercise;
 
 public class Start {
     public static void main(String[] args) {
-     Programmer p1 = new Programmer();
+     Programmer programmer1 = new Programmer();
 
-     Programmer p2 = new Programmer();
+     Programmer programmer2 = new Programmer();
 
-     p1.name = "Mario";
-     p1.age = 25;
-     p1.wearsGlasses = true;
+        programmer1.name = "Mario";
+        programmer1.age = 25;
+        programmer1.wearsGlasses = true;
 
-     p2.name = "Luca";
-     p2.age = 30;
-     p2.wearsGlasses = false;
+        programmer2.name = "Luca";
+        programmer2.age = 30;
+        programmer2.wearsGlasses = false;
+
+        programmer1.drinkCoffe();
+        programmer1.printDetails();
+
+        programmer2.printDetails();
+        programmer2.hasGlasses();
 
 
 
