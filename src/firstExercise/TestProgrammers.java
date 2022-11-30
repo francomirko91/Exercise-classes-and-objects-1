@@ -10,12 +10,12 @@ public class TestProgrammers {
         programmer1.age = 25;
         programmer1.wearsGlasses = true;
 
+        programmer1.drinkCoffe();
+        programmer1.printDetails();
+
         programmer2.name = "Luca";
         programmer2.age = 30;
         programmer2.wearsGlasses = false;
-
-        programmer1.drinkCoffe();
-        programmer1.printDetails();
 
         programmer2.printDetails();
         programmer2.hasGlasses();
