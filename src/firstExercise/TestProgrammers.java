@@ -1,6 +1,6 @@
 package firstExercise;
 
-public class Start {
+public class TestProgrammers {
     public static void main(String[] args) {
      Programmer programmer1 = new Programmer();
 
